@@ -9,7 +9,7 @@ python3 main.py
 ```
 Script sẽ tự lấy link và tải tuần tự từng file một cho đến khi hết danh sách link cần tải trong file link.txt thì thôi
 
-Neeusbanj chưa có module bs4 thì chạy lệnh sau để cài
+Nếu bạn chưa có module bs4 thì chạy lệnh sau để cài
 
 ```bash 
 pip install bs4
