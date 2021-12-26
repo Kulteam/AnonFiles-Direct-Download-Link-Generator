@@ -21,4 +21,5 @@ pip3 install bs4 --user
 ```
 
 Nếu bạn muốn lấy link direct hàng loạt thì tham khảo file main_old
+
 Chúc vui vẻ :)
