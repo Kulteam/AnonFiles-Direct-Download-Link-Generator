@@ -26,6 +26,6 @@ hoặc
 pip3 install bs4 --user 
 ```
 
-Nếu bạn muốn lấy link direct hàng loạt thì tham khảo file main_old
+Nếu bạn muốn lấy link direct hàng loạt thì tham khảo file generator.py
 
 Chúc vui vẻ :)
