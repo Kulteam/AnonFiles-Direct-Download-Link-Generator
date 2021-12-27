@@ -3,10 +3,16 @@ Script Python đơn giản để lấy liên kết tải trực tiếp từ host
 ## Hướng dẫn sử dụng
 Các bạn tạo một file tên link.txt đặt cùng thư mục với file main.py
 Đặt các link bạn cần tải vào file link.txt, mỗi link một dòng.
-Lưu lại và chạy lệnh 
+Lưu lại và chạy lệnh sau nếu bạn muốn tải về bằng thư viện request
 ```bash
 python3 main.py
 ```
+Hoặc lệnh dưới nếu bạn muốn dùng API của wget để tải về
+
+```bash
+python3 auto.py
+```
+
 Script sẽ tự lấy link và tải tuần tự từng file một cho đến khi hết danh sách link cần tải trong file link.txt thì thôi
 
 Nếu bạn chưa có module bs4 thì chạy lệnh sau để cài
