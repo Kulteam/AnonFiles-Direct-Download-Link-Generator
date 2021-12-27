@@ -30,10 +30,11 @@ file = open("direct.txt", "r")
 file_link = file.read()
 links_direct = file_link.split("\n")
 
-print(links_direct)
-for index in range(len(links_direct)):
-    r = requests.get(links_direct[index], allow_redirects=True)
-    if links_direct[index].find('/'):
-        namefile=(links_direct[index].rsplit('/', 1)[1])
-        open(namefile, 'wb').write(r.content)
-        print("Đã tải xong: "+namefile)
+
+#print(links_direct)
+#for index in range(len(links_direct)):
+#    r = requests.get(links_direct[index], allow_redirects=True)
+#   if links_direct[index].find('/'):
+#        namefile=(links_direct[index].rsplit('/', 1)[1])
+#        open(namefile, 'wb').write(r.content)
+#        print("Đã tải xong: "+namefile)
